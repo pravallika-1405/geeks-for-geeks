@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    float a=5.43,b=2.653;
+    printf("%.3f",a/b);
+    
+}
