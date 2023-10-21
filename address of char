@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int a,g;
+    a=g;;
+    printf("%p",&a);
+    
+    
+}
