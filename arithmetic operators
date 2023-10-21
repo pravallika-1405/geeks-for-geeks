@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int x,y,p,q,r,s,t;
+    scanf("%d %d",&x,&y);
+    p=x+y;
+    q=x-y;
+    r=x*y;
+    s=x/y;
+    t=x%y;
+    printf("%d %d %d %d %d",p,q,r,s,t);
+}
