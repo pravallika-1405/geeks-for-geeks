@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    int a=124;
+    printf("%5d",a);
+}
