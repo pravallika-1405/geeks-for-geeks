@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,n,res,r=2,c;
+    scanf("%d %d",&a,&n);
+    c=pow(r,n-1);
+    res=a*c;
+    printf("%d",res);
+    
+}
