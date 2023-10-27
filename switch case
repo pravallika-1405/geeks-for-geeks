@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int x=0,y=0;
+    char c;
+    scanf("%c",&c);
+    switch(c){
+        case 'L': x--;
+                  break;
+        case 'R': x++;
+                  break;
+        case 'U': y--;
+                  break;
+        case 'D': y++;
+                  break;  
+        default:printf("invalid move");          
+                  
+    }
+    printf("%d %d",x,y);
+}
